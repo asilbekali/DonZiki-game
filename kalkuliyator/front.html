@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <span id="display-small" class="small-text"></span>
+            <span id="display-large" class="large-text">0</span>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn gray" data-action="clear">C</button>
+            <button class="btn gray" data-action="toggle-sign">+/-</button>
+            <button class="btn gray" data-action="percent">%</button>
+            <button class="btn operator" data-action="divide">÷</button>
+
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn operator" data-action="multiply">×</button>
+
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn operator" data-action="subtract">-</button>
+
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn operator" data-action="add">+</button>
+
+            <button class="btn zero">0</button>
+            <button class="btn" data-action="decimal">,</button>
+            <button class="btn equal" data-action="calculate">=</button>
+        </div>
+    </div>
+
+    <script src="./back.js"></script>
+</body>
+</html>
